@@ -74,9 +74,6 @@ while True:
             deviationx = centroidx - 240
             deviationy = centroidy - 320
 
-            
-            #Write Relevant Variables over the Serial Port
-        
             #Print to console for Debugging
             #print(category.category_name, ", with prob: ", str(round(category.score,2)), "and centroid: ", str(centroidx),",",str(centroidy))
             #print('deviation from center: ', str(deviationx), ",", str(deviationy))
